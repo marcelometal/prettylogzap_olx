@@ -46,7 +46,7 @@ func NewLoggerDevelopment() (*zap.Logger, error) {
 ```
 
 ## Atenção
-Usar somente em modo de desenvolvimento
+Usar somente em modo de desenvolvimento.
 
 ## Agradecimento
 Esse projeto foi inspirado no projeto [prettylog](https://github.com/globocom/prettylog). Obrigado!
