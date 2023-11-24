@@ -1,9 +1,9 @@
 # Pretty Log Zap
 
-Formata a exibição de logs estruturados em JSON em um formato compatível com seres humanos.
+Formata a exibição de logs estruturados (JSON) em um formato compatível com seres humanos.
 
 
-![Prettylog](https://github.com/globocom/prettylogzap/blob/main/prettylogzap.png)
+![Prettylog](https://github.com/olxbr/prettylogzap/blob/main/prettylogzap.png)
 
 
 ## Utilização
@@ -11,7 +11,7 @@ Formata a exibição de logs estruturados em JSON em um formato compatível com 
 import (
 	"fmt"
 
-	"github.com/globocom/prettylogzap"
+	"github.com/olxbr/prettylogzap"
 	"go.uber.org/zap"
 )
 
@@ -44,6 +44,9 @@ func NewLoggerDevelopment() (*zap.Logger, error) {
 }
 
 ```
+
+## Atenção
+Usar somente em modo de desenvolvimento
 
 ## Agradecimento
 Esse projeto foi inspirado no projeto [prettylog](https://github.com/globocom/prettylog). Obrigado!
